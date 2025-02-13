@@ -3,6 +3,6 @@
 This website showcases Kolberg Volleyball Team.
 
 
-## 🔗 Links
-[![WEBSITE](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://aronbmf.github.io)
+## 🔗 Link
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white)](https://aronbmf.github.io)
  
