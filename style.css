@@ -238,7 +238,6 @@ footer {
   .print-video-placeholder p { margin: 0; }
 
   .portrait {
-    filter: grayscale(100%);
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
