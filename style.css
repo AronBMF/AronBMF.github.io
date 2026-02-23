@@ -95,6 +95,11 @@ main {
 
 .video-meta { margin-top: 0.6rem; color: var(--text-muted); }
 
+/* Print placeholder – hidden on screen, shown on print */
+.print-video-placeholder {
+  display: none;
+}
+
 section { margin-bottom: 4rem; }
 
 section h2 {
@@ -102,6 +107,35 @@ section h2 {
   margin-bottom: 1.5rem;
   border-left: 3px solid var(--accent);
   padding-left: 0.6rem;
+}
+
+/* Experience list */
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.exp-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #1e1e1e;
+}
+
+.exp-item:first-child {
+  border-top: 1px solid #1e1e1e;
+}
+
+.exp-role {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.exp-project {
+  color: var(--text);
+  font-weight: 500;
 }
 
 .project { margin-bottom: 3rem; }
@@ -117,9 +151,41 @@ footer {
 @media (max-width: 700px) {
   .intro { grid-template-columns: 1fr; }
   .portrait { max-width: 220px; }
+  .exp-item { grid-template-columns: 1fr; gap: 0.2rem; }
 }
 
 @media print {
   header, footer, button { display: none; }
   body { background: #fff; color: #000; }
+
+  /* Hide iframes (videos) and show text placeholders instead */
+  .video-frame { display: none; }
+  .print-video-placeholder {
+    display: block;
+    border: 1px solid #ccc;
+    padding: 0.75rem 1rem;
+    margin-top: 0.5rem;
+    color: #555;
+    font-style: italic;
+    font-size: 0.9rem;
+    background: #f9f9f9;
+  }
+  .print-video-placeholder p { margin: 0; }
+
+  /* Keep portrait image visible in print */
+  .portrait {
+    filter: grayscale(100%);
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Adjust experience list colors for print */
+  .exp-role { color: #555; }
+  .exp-item { border-bottom-color: #ddd; }
+  .exp-item:first-child { border-top-color: #ddd; }
+
+  section h2 {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
 }
