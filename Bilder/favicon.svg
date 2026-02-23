@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512"><svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" fill="#222" rx="128"></rect>
+  <!-- Silver Play Button -->
+  <polygon points="120,100 120,412 420,256" fill="#C0C0C0"></polygon>
+  <svg x="150" y="207" width="145.32" height="87.24" viewBox="0 0 145.32 87.24" xmlns="http://www.w3.org/2000/svg"><g id="svgGroup" stroke-linecap="round" fill-rule="evenodd" font-size="9pt" stroke="#222222" stroke-width="0.25mm" fill="#222222" style="stroke:#222222;stroke-width:0.25mm;fill:#222222"><path d="M 16.92 87.24 L 0 87.24 L 31.32 0 L 48.12 0 L 79.44 87.24 L 61.68 87.24 L 40.08 22.32 L 39.12 17.88 L 38.04 22.56 L 27.84 53.64 L 26.4 56.04 L 28.2 55.8 L 37.32 55.8 Q 40.8 55.8 43.17 57.78 Q 45.54 59.76 47.01 62.64 Q 48.48 65.52 49.32 68.16 L 23.28 68.16 L 16.92 87.24 Z M 110.16 87.24 L 93 87.24 L 93 0 L 145.32 0 L 145.32 12.36 L 110.16 12.36 L 110.16 87.24 Z M 141.24 47.52 L 114.72 47.52 Q 115.5 44.88 116.97 42.06 Q 118.44 39.24 120.84 37.32 Q 123.24 35.4 126.72 35.4 L 141.24 35.4 L 141.24 47.52 Z" vector-effect="non-scaling-stroke"></path></g></svg>
+</svg></svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style></svg>
