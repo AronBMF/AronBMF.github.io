@@ -1,38 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Volleyball Highlights</title>
-    <link rel="stylesheet" href="Styles.css">
-
-    
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aron – Film & Video</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-    <header>
-        <h1>KOLBERG VOLLEYBALL</h1>
-        <img class="icon" src="Bilder/volleyball.png" alt="Volleyball Icon">
-    </header>
+<header>
+  <div class="header-inner">
+    <div class="header-left">ARON</div>
+    <div class="header-right">
+      <button class="btn" id="langToggle">EN</button>
+      <button class="btn" id="printBtn">Print PDF</button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="intro">
+    <div class="portrait"></div>
+    <div class="intro-text">
+      <h1 data-no="Film- og videoprodusent" data-en="Film & Video Producer">Film- og videoprodusent</h1>
+      <p data-no="Jobber med film og video med fokus på historiefortelling, struktur og gjennomføring."
+         data-en="Working with film and video, focusing on storytelling, structure and execution.">Jobber med film og video med fokus på historiefortelling, struktur og gjennomføring.</p>
+      <p data-no="Erfaring fra både kreative og koordinerende roller i produksjon."
+         data-en="Experience from both creative and coordinating roles in production.">Erfaring fra både kreative og koordinerende roller i produksjon.</p>
+    </div>
+  </section>
+
+  <section class="hero">
+    <h2 data-no="Nyeste prosjekt" data-en="Latest project">Nyeste prosjekt</h2>
+    <div class="video-frame">
+      <iframe src="https://drive.google.com/file/d/VIDEO_ID/preview" allow="autoplay"></iframe>
+    </div>
+    <div class="video-meta" data-no="Et ekko av henne – Produsent" data-en="An echo of her voice – Producer">Et ekko av henne – Produsent</div>
+  </section>
+
+  <section class="experience">
+    <h2 data-no="Erfaring" data-en="Experience">Erfaring</h2>
+    <p data-no="Inspillingsleder – en av hovedrollene jeg har hatt tidligere. Fortsatt fleksibel og med erfaring fra flere andre roller i produksjon."
+       data-en="Production manager – one of my main roles previously. Still flexible, with experience in several other production roles.">Inspillingsleder – en av hovedrollene jeg har hatt tidligere. Fortsatt fleksibel og med erfaring fra flere andre roller i produksjon.</p>
+  </section>
+
+  <section>
+    <h2>CUT!</h2>
+    <p data-no="Her kan du skrive mer om CUT!, hva det er og hvorfor det er relevant."
+       data-en="Here you can write more about CUT!, what it is and why it matters.">Her kan du skrive mer om CUT!, hva det er og hvorfor det er relevant.</p>
+  </section>
+
+  <section>
+    <h2 data-no="Utvalgte prosjekter" data-en="Selected projects">Utvalgte prosjekter</h2>
+
+    <div class="project">
+      <h3>Prøveeksamen – Kraft</h3>
+      <div class="video-frame">
+        <iframe src="https://drive.google.com/file/d/VIDEO_ID/preview"></iframe>
+      </div>
+    </div>
+
+    <div class="project">
+      <h3>Red Bull Reklame</h3>
+      <div class="video-frame">
+        <iframe src="https://drive.google.com/file/d/VIDEO_ID/preview"></iframe>
+      </div>
+    </div>
+
+    <div class="project">
+      <h3>Den ene delen</h3>
+      <div class="video-frame">
+        <iframe src="https://drive.google.com/file/d/VIDEO_ID/preview"></iframe>
+      </div>
+    </div>
+
+  </section>
 
 
-    <main>
-        <p>Møt spillerne</p>
-        <iframe width="711" height="415" src="https://www.youtube.com/embed/nuwHRSA4-o4" title="Spillerene hos Kolberg Volleyball Klubb" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        
-        <h1>Info</h1>
-        <p>Hei, mitt navn er Aron Folkestad og jeg er en innholdsprodusent og medie intressert student på Glemmen videregående skole.</p>
-        <p>Her har jeg filmet Kolberg volleyball klubb. En klubb med gode spillere både på og utenfår banen. </p>
-    </main>
+</main>
 
-    <footer>
-        <img class="spiker" src="Bilder/spiker.png" alt="Volleyball Spiker">
-        <img class="net" src="Bilder/illustration-of-volleyball-net-png.png" alt="Volleyball Net">
-        
-        <p>&copy; 2025, Aron Benedict Magnus Folkestad.</p>
-    </footer>
+<footer>
+  © Aron – Film & Video
+</footer>
 
-
-
+<script src="script.js"></script>
 </body>
 </html>
